@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@clerk/nextjs": "^6.31.4",
-    "react-icons": "^5.5.0"
-  }
-}
