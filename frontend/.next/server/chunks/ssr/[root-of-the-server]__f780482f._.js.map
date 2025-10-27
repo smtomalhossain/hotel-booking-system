@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///D:/CodeKori/hotel-booking-system/frontend/src/app/sign-in/page.tsx"],"sourcesContent":["import { SignIn } from '@clerk/nextjs'\r\n\r\nexport default function Page() {\r\n    return (\r\n        <div className='flex justify-center'>\r\n            <SignIn />\r\n            </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,qBACI,0PAAC;QAAI,WAAU;kBACX,cAAA,0PAAC,gMAAM;;;;;;;;;;AAGnB","debugId":null}}]
-}

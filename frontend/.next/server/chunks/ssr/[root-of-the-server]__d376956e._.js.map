@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///D:/CodeKori/hotel-booking-system/frontend/src/app/rooms/%5Bid%5D/page.tsx"],"sourcesContent":["const SinglePage = () => {\r\n    return (\r\n        <div>\r\n<h1>Room Details</h1>\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default SinglePage;\r\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,aAAa;IACf,qBACI,0PAAC;kBACT,cAAA,0PAAC;sBAAG;;;;;;;;;;;AAGJ;uCAEe","debugId":null}}]
-}

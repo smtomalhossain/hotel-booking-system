@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///D:/CodeKori/hotel-booking-system/frontend/src/app/page.tsx"],"sourcesContent":["import ExclusiveOffers from \"@/components/ExclusiveOffers\";\nimport FeaturedDestination from \"@/components/FeaturedDestination\";\nimport NewsLetter from \"@/components/NewsLetter\";\nimport Review from \"@/components/Review\";\n\nexport default function Home() {\n  return (\n    <>\n      <div className=\"\">\n        {/* <FeaturedDestination /> */}\n        {/* <ExclusiveOffers />\n        <Review />\n        <NewsLetter/> */}\n      </div>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAKe,SAAS;IACtB,qBACE;kBACE,cAAA,0PAAC;YAAI,WAAU;;;;;;;AAQrB","debugId":null}}]
-}
