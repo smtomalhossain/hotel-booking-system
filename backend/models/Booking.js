@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const bookingSchema = new mongoose.Schema9({
+const bookingSchema = new mongoose.Schema({
     user: {
         type: String,
         ref: 'User',

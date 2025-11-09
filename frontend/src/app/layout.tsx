@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import Footer from "@/components/Footer";
-import HotelRegister from "@/components/HotelRegister";
 import HeaderWrapper from "@/components/HeaderWrapper";
+import { AppProvider } from '../context/AppContext.jsx'
 
 
 export const metadata: Metadata = {
@@ -18,17 +18,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
+
   return (
 
     <html lang="en">
-      <body
-      >
+      <body>
         <ClerkProvider>
-          <HeaderWrapper />
-          {false && <HotelRegister />}
-          {children}
-          <Footer />
+          <AppProvider>
+            <HeaderWrapper />
+            {children}
+            <Footer />
+          </AppProvider>
         </ClerkProvider>
       </body>
     </html>
